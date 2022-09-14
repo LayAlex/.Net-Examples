@@ -11,9 +11,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelTaskWithParam", "Pa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelTaskChains", "ParallelTaskChains\ParallelTaskChains.csproj", "{32F33ABF-0528-46FC-99EF-8B37DD7BE892}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelInvoke", "ParallelInvoke\ParallelInvoke.csproj", "{909B1251-BA81-454C-A4E0-472BD2A9D0FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelInvoke", "ParallelInvoke\ParallelInvoke.csproj", "{909B1251-BA81-454C-A4E0-472BD2A9D0FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelFor", "ParallelFor\ParallelFor.csproj", "{11DE4A73-3FE5-4944-B2E1-0BEB935E89C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelFor", "ParallelFor\ParallelFor.csproj", "{11DE4A73-3FE5-4944-B2E1-0BEB935E89C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancellationToken", "CancellationToken\CancellationToken.csproj", "{116BFF9D-4D37-4474-9E6D-6BAEC4899213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lock", "lock\lock.csproj", "{D65179F8-FBEC-48F2-A125-8123A49DDCD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monitor", "Monitor\Monitor.csproj", "{CEB4A7CD-82FC-40D3-A3F6-99F64C09B2E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorWait", "MonitorWait\MonitorWait.csproj", "{55C61012-4DB3-4AFD-B42F-EC22666B46BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +53,22 @@ Global
 		{11DE4A73-3FE5-4944-B2E1-0BEB935E89C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11DE4A73-3FE5-4944-B2E1-0BEB935E89C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11DE4A73-3FE5-4944-B2E1-0BEB935E89C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{116BFF9D-4D37-4474-9E6D-6BAEC4899213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{116BFF9D-4D37-4474-9E6D-6BAEC4899213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{116BFF9D-4D37-4474-9E6D-6BAEC4899213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{116BFF9D-4D37-4474-9E6D-6BAEC4899213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D65179F8-FBEC-48F2-A125-8123A49DDCD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D65179F8-FBEC-48F2-A125-8123A49DDCD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D65179F8-FBEC-48F2-A125-8123A49DDCD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D65179F8-FBEC-48F2-A125-8123A49DDCD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEB4A7CD-82FC-40D3-A3F6-99F64C09B2E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEB4A7CD-82FC-40D3-A3F6-99F64C09B2E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEB4A7CD-82FC-40D3-A3F6-99F64C09B2E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEB4A7CD-82FC-40D3-A3F6-99F64C09B2E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55C61012-4DB3-4AFD-B42F-EC22666B46BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55C61012-4DB3-4AFD-B42F-EC22666B46BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55C61012-4DB3-4AFD-B42F-EC22666B46BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55C61012-4DB3-4AFD-B42F-EC22666B46BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
